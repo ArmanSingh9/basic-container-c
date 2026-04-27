@@ -1,0 +1,17 @@
+{
+  "name": "basic-container-c",
+  "version": "1.0.0",
+  "description": "> **B.Tech CSE Operating Systems Project** > Demonstrates: `clone()`, PID namespaces, UTS namespaces, `chroot()`, process isolation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

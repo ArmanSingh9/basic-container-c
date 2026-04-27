@@ -1,0 +1,26 @@
+{
+  "name": "Basic Container Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Web Dashboard",
+      "onAutoForward": "notify"
+    }
+  },
+  "runArgs": [
+    "--cap-add=SYS_ADMIN",
+    "--security-opt",
+    "seccomp=unconfined"
+  ],
+  "postCreateCommand": "bash deploy.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  },
+  "remoteUser": "node"
+}

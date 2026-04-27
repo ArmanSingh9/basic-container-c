@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build artifacts
+container
+container.o
+src/*.o
+*.obj
+
+# Container runtime files
+rootfs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
