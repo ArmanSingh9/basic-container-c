@@ -80,3 +80,4 @@ You can now type commands like `ls -la`, `whoami`, `ps`, and `df` into the termi
 2. **PID Namespace (`CLONE_NEWPID`)**: The process inside the container sees itself as PID 1.
 3. **UTS Namespace (`CLONE_NEWUTS`)**: The container gets its own isolated hostname (`my-container`).
 4. **Filesystem Isolation (`chroot()`)**: The container is restricted to the `./rootfs` directory. It cannot access the host's real root filesystem.
+Update 1
