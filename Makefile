@@ -2,6 +2,7 @@
 #  Makefile — Basic Container (OS Project)
 # ─────────────────────────────────────────────────────────────
 
+# Compiler and build settings for the container runtime
 CC       = gcc
 CFLAGS   = -Wall -Wextra -D_GNU_SOURCE -std=c99
 TARGET   = container
