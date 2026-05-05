@@ -9,6 +9,8 @@ const express = require("express");
 const cors = require("cors");
 const { spawn } = require("child_process");
 
+// Minimal comment: this server runs commands inside the container via the web UI
+
 const app = express();
 app.use(cors());
 app.use(express.json());
