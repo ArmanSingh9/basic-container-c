@@ -15,6 +15,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <sched.h>
+
+/* Minimal comment: this source creates namespaces and runs a command in a new container */
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
