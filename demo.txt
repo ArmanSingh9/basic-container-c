@@ -1,1 +1,2 @@
 hello
+# Note: demo.txt contains a placeholder line for this repository.
