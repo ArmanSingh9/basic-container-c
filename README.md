@@ -3,6 +3,8 @@
 > **B.Tech CSE Operating Systems Project**
 > Demonstrates: `clone()`, PID namespaces, UTS namespaces, `chroot()`, process isolation
 
+> Note: This README includes setup and usage instructions for the container runtime.
+
 This project builds a simple container runtime using Linux system calls and connects it to a web-based dashboard where you can run 40 different Linux commands inside the isolated container.
 
 ---
