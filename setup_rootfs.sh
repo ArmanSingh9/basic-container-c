@@ -2,6 +2,7 @@
 
 # setup_rootfs.sh — Creates the mini filesystem for the container
 # This script must be run as root (or with sudo)
+# Minimal note: root access is required to mount proc and copy system binaries.
 
 if [ "$EUID" -ne 0 ]; then
   echo "Please run as root (sudo bash setup_rootfs.sh)"
